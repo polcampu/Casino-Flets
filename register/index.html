@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Flets | Registro</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel='icon' type='image/png' href='../images/Flets.png'>
+</head>
+<body>
+    <header>
+        <a href="../"><img src="../images/Flets.png" alt="Logo Flets"></a>
+        <div>
+            <a id="entrar" href="../login">Entrar</a>
+            <a id="registro" href="../register">Registro</a>
+        </div>
+    </header>
+
+    <div class="register">
+        <h1>Registro</h1>
+        <form method="post" action="../php/register.php" id="form">
+            <p>Nombre</p>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required="required" />
+            <span class="error" aria-live="polite"></span>
+            <p>Apellidos</p>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required="required" />
+            <span class="error" aria-live="polite"></span>
+            <p>Fecha de nacimiento</p>
+            <input type="date" id="fecha" name="fecha" placeholder="Fecha de nacimiento" required="required" />
+            <span class="error" aria-live="polite"></span>
+            <p>DNI</p>
+            <input type="text" id="dni" name="dni" placeholder="DNI" required="required" />
+            <span class="error" aria-live="polite"></span>
+            <p>Usuario</p>
+            <input type="text" id="usuario" name="usuario" placeholder="Usuario" required="required" />
+            <span class="error" aria-live="polite"></span>
+            <p>Correo electrónico</p>
+            <input type="text" id="correo" name="correo" placeholder="Correo electrónico" required="required" />
+            <span class="error" aria-live="polite"></span>
+            <p>Contraseña</p>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required="required" />
+            <span class="error" aria-live="polite"></span>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Registrarse</button>
+            
+        </form>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html> 

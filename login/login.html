@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Flets | Entrar</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../images/Flets.png" alt="Logo Flets"></a>
+        <div>
+            <a id="entrar" href="../login/login.html">Entrar</a>
+            <a id="registro" href="../register/register.html">Registro</a>
+        </div>
+    </header>
+
+    <div class="login">
+        <h1>Entrar</h1>
+        <form method="post" action="../php/login.php">
+            <p>Usuario</p>
+            <input type="text" name="usuario" placeholder="Usuario" required="required" />
+            <p>Contraseña</p>
+            <input type="password" name="contraseña" placeholder="Contraseña" required="required" />
+            <button type="submit" class="btn btn-primary btn-block btn-large">Iniciar sesión</button>
+        </form>
+    </div>
+
+</body>
+</html> 
+
