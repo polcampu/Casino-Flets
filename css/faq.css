@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html { width: 100%; height:100%;}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    width: 100%;
+	height:100%;
+	background: #092756;
+	background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),-moz-linear-gradient(top,  rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), -moz-linear-gradient(-45deg,  #670d10 0%, #092756 100%);
+	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #670d10 0%,#092756 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
+    background-attachment:fixed;
+}
+
+header {
+    background-color: #2e2e2e;
+    height: 90px;
+    box-shadow: 0px 1px 3px #2e2e2e;
+}
+
+header>a>img {
+    float:left;
+    margin: 16px;
+    margin-left: 10%;
+    height: 60px;
+}
+
+header>div {
+    height: 90px;
+    width: fit-content;
+    float:right;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#entrar {
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #ff0000;
+    padding: 0.5em 1.5em;
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 4%;
+}
+
+#entrar:hover {
+    background-color: #990c0cc9;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px red;
+}
+  
+#entrar:active {
+    top: 2px;
+}
+
+#registro {
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 0.5em 1.5em;
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 4%;
+    box-shadow: 0px 0px 15px red;
+}
+
+#registro:hover {
+    background-color: #ce0606;
+    border: 2px solid #ce0606;
+    cursor: pointer;
+}
+  
+#registro:active {
+    top: 2px;
+}
+
+#usuario {
+    color: white;
+    padding: 0.5em 1.5em;
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-left: 2px solid #ff0000;
+    border-bottom: 2px solid #ff0000;
+    border-top: 2px solid #ff0000;
+    padding-right: 0.5em;
+}
+
+#puntos {
+    color: white;
+    padding: 0.5em 1.5em;
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 4%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-right: 2px solid #ff0000;
+    border-bottom: 2px solid #ff0000;
+    border-top: 2px solid #ff0000;
+    margin-left: 0px;
+    padding-left: 0.5em;
+}
+
+#logout {
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 0.5em 1.5em;
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 4%;
+    box-shadow: 0px 0px 15px red;
+}
+
+#logout:hover {
+    background-color: #ce0606;
+    border: 2px solid #ce0606;
+    cursor: pointer;
+}
+  
+#logout:active {
+    top: 2px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#listaJuegos {
+    width: 80%;
+    height: auto;
+    background-color: #00000080;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#headerJuegos {
+    display: flex;
+}
+
+#tituloJuegos {
+    color:white;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#faq {
+    float:right;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #4e4e4e;
+    padding: 0.5em 1.5em;
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 4%;
+    margin-top: 21px;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+#faq:hover {
+    background-color: #4e4e4e6b;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #4e4e4e;
+}
+  
+#faq:active {
+    top: 2px;
+}
+
+.faq-container {    
+    max-width: 1350px;
+    margin: 0 auto 0 auto;
+    padding: 2rem;
+    padding-top: 0.8rem;
+  }
+
+  details { 
+    background-color: #4e4e4e6b;
+    width: 100%;
+    margin-bottom: 1rem;   
+    border-radius: 8px;  
+    border: 1px solid #4e4e4e;
+    color: white;
+    position: relative;  
+  }
+  details summary {  
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 1rem;
+    cursor: pointer;
+    list-style: none;
+  }
+  details p {
+    padding: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    background: #4e4e4e88;
+    border-left: 2px solid #000000;
+    font-style: italic;
+    border-radius: 8px;  
+  }
+  
+  details:hover,
+  details[open] {
+    box-shadow: 5px 5px 15px #4e4e4e;
+  }
+  
+  details[open] {
+    background: #4e4e4e6b;
+  }
+  
+  details[open] summary {
+    font-weight: 600;
+  }
+  
+  details summary::before {
+    position: absolute;
+      content: "👇";    
+      font-size: 1.75rem;
+      top: 10px;
+      right: 16px;  
+  }
+  
+  details[open] summary::before {
+    -webkit-animation: rotate 0.6s ease-in-out both;
+              animation: rotate-emoji 0.6s ease-in-out both;
+  }
+  
+  @keyframes rotate-emoji {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: auto;
+}
+  
+  ::-webkit-scrollbar-track {
+      background: #2e2e2e;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #ff0000;
+    border-radius: 25px;
+}
